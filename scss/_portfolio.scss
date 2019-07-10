@@ -2,6 +2,7 @@
   display: block;
   position: relative;
   overflow: hidden;
+  max-height: 420px;
   max-width: 530px;
   margin: auto auto 1rem;
   .caption {
@@ -14,7 +15,7 @@
     bottom: 0;
     z-index: 1;
     .caption-content {
-      color: $white;
+      color: $black;
       margin: auto 2rem 2rem;
       h2 {
         font-size: 0.8rem;
@@ -52,6 +53,7 @@
       }
       .caption {
         background-color: fade-out($primary, 0.1);
+        color: $white;
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem);
       }

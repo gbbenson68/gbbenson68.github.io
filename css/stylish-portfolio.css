@@ -237,6 +237,7 @@ h6 {
   display: block;
   position: relative;
   overflow: hidden;
+  max-height: 420px;
   max-width: 530px;
   margin: auto auto 1rem;
 }
@@ -255,7 +256,7 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content {
-  color: #fff;
+  color: #000;
   margin: auto 2rem 2rem;
 }
 
@@ -297,6 +298,7 @@ h6 {
   }
   .portfolio-item:hover .caption {
     background-color: rgba(29, 128, 159, 0.9);
+    color: #fff;
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
