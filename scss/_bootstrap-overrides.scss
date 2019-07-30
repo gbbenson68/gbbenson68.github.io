@@ -46,11 +46,15 @@ a {
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $white !important;
 }
 
 .text-secondary {
   color: $secondary !important;
+}
+
+.bg-medium {
+  background-color: #cdcae2;
 }
 
 .my-img {

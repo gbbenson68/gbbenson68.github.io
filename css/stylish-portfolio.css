@@ -208,10 +208,10 @@ h6 {
 .service-icon {
   background-color: #fff;
   color: #1D809F;
-  height: 7rem;
-  width: 7rem;
+  height: 8rem;
+  width: 7.5rem;
   display: block;
-  line-height: 7.5rem;
+  line-height: 8.5rem;
   font-size: 2.25rem;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -373,11 +373,15 @@ a:hover, a:focus, a:active {
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #fff !important;
 }
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.bg-medium {
+  background-color: #cdcae2;
 }
 
 .my-img {
