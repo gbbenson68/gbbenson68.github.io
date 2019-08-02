@@ -38,9 +38,6 @@
         <a class="js-scroll-trigger" href="#page-top">Main Menu</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Home</a>
-      </li>
-      <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#about">About Me</a>
       </li>
       <li class="sidebar-nav-item">
@@ -58,11 +55,13 @@
   <!-- Header -->
   <header class="masthead d-flex">
     <div class="container text-center my-auto">
-      <h1 class="mb-1">Guy B. Benson</h1>
+      <h1 class="mb-1 masthead-margin">Guy B. Benson</h1>
       <h3 class="mb-5">
-        <em>Full Stack Software Engineer</em>
+        <em>Full Stack Software Engineer &nbsp;&mdash;&nbsp; Drummer</em>
       </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
+      <a class="btn btn-primary btn-md js-scroll-trigger" href="#about">
+        <i class="fas fa-chevron-down"></i>
+      </a>
     </div>
     <div class="overlay"></div>
   </header>
@@ -76,9 +75,11 @@
         </div>
         <div class="col-lg-9 mx-auto">
           <h2>A graduate student in aerospace engineering walks into a bar...</h2>
-          <p class="lead mb-5">This is how my story in software began more than two decades ago. (If you want to hear the full story, let me know - it's a fun story.) I am an aerospace engineer by education and a software engineer by experience. I’ve always been intrigued by using software to solve practical problems, whether it be providing an HTML interface for viewing invoices or modeling the fluid flow through a rocket thruster. I recently decided to upgrade my skill set with an immersive software engineering program at General Assembly, and I am now taking my ambitions to the next level. I am eager and excited to take on those sometimes seemingly insurmountable challenges that affect us all.
+          <p class="lead mb-5">This is how my story in software began more than two decades ago. (If you want to hear the full story, let me know - it's a fun story.) I am a software engineer by experience and an aerospace engineer by education. I’ve always been intrigued by using software to solve practical problems, whether it be providing an HTML interface for viewing invoices or modeling the fluid flow through a rocket thruster. I recently decided to upgrade my skill set with an immersive software engineering program at General Assembly, and I am now taking my ambitions to the next level. I am eager and excited to take on those sometimes seemingly insurmountable challenges that affect us all.
             </p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#skill-set">Skills</a>
+          <a class="btn btn-dark btn-md js-scroll-trigger" href="#skill-set">
+            <i class="fas fa-chevron-down"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -182,6 +183,9 @@
           </svg>
         </div>
       </div>
+      <a class="btn btn-primary btn-md js-scroll-trigger" href="#portfolio">
+        <i class="fas fa-chevron-down"></i>
+      </a>
     </div>
   </section>
 
@@ -191,7 +195,7 @@
       <h2 class="mx-auto mb-5">Welcome to
         <em>your</em>
         next website!</h2>
-      <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
+      <a class="btn btn-primary btn-md" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
     </div>
   </section> -->
 
@@ -204,18 +208,7 @@
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6">
-          <a class="portfolio-item" href="https://gbbenson68.github.io/tic-tac-toe-new/">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Tic Tac Toe</h2>
-                <p class="mb-0">An interactive Tic-Tac-Toe game that saves your results!</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="img/tic-tac-toe.png" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="https://gbbenson68.github.io/gas-mileage-calculator-client/">
+          <a class="portfolio-item" href="https://gbbenson68.github.io/gas-mileage-calculator-client/" target="_blank">
             <span class="caption">
               <span class="caption-content">
                 <h2>Gas Mileage Calculator</h2>
@@ -226,7 +219,7 @@
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="https://gbbenson68.github.io/caGUsabi-client/">
+          <a class="portfolio-item" href="https://gbbenson68.github.io/caGUsabi-client/" target="_blank">
             <span class="caption">
               <span class="caption-content">
                 <h2>Image Uploader</h2>
@@ -237,26 +230,48 @@
           </a>
         </div>
         <div class="col-lg-6">
+          <a class="portfolio-item" href="https://gbbenson68.github.io/tic-tac-toe-new/" target="_blank">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Tic Tac Toe</h2>
+                <p class="mb-0">An interactive Tic-Tac-Toe game that saves your results!</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/tic-tac-toe.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
           <a class="portfolio-item" href="#">
             <span class="caption">
               <span class="caption-content">
-                <h2>Workspace</h2>
-                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                <h2>Internome</h2>
+                <p class="mb-0">An interval-base metronome for drummers.</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+            <img class="img-fluid" src="img/Met-med.jpg" alt="">
           </a>
         </div>
+
+      </div>
+      <div class='text-center'>
+        <a class="btn btn-secondary btn-md js-scroll-trigger" href="#resume">
+          <i class="fas fa-chevron-down"></i>
+        </a>
       </div>
     </div>
   </section>
 
   <!-- Call to Action -->
-  <section class="content-section bg-light">
+  <section class="content-section bg-light" id="resume">
     <div class="container text-center">
-      <h2 class="mb-4">Totally forgot what I was going to put here...</h2>
-      <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
+      <h2 class="mb-4">Interested?</h2>
+      <a href="./public/Benson.Guy.2019.pdf" target="_blank" class="btn btn-lg btn-dark">Get my resume!</a>
+      <!--
+      <br/>
+      <a class="btn btn-primary btn-md js-scroll-trigger sticky-bottom" href="#contact">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+      -->
     </div>
   </section>
 
