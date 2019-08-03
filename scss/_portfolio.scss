@@ -15,7 +15,8 @@
     bottom: 0;
     z-index: 1;
     .caption-content {
-      color: $black;
+      // color: $black;
+      opacity: 0;
       margin: auto 2rem 2rem;
       h2 {
         font-size: 0.8rem;
@@ -52,10 +53,15 @@
         clip-path: inset(2rem);
       }
       .caption {
-        background-color: fade-out($primary, 0.1);
+        background-color: fade-out($secondary, 0.1);
         color: $white;
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem);
+        .caption-content {
+          color: fade-out($black, 0.1);
+          opacity: 1;
+          transition: opacity 0.4s;
+        }
       }
     }
   }
